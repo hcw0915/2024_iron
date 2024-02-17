@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"allowSyntheticDefaultImports": true,
+		"strict": true
+	}
+
+	/* 表示這個文件專門服務 vite.config.ts 這個文件 */
+	// "include": ["vite.config.ts"]
+}
