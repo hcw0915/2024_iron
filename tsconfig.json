@@ -1,44 +1,44 @@
 {
-	"compilerOptions": {
-		/* 將代碼編譯為最新版的JS */
-		"target": "ESNext",
-		/* 設置編譯時使用的庫定義 */
-		"lib": ["ES2020", "DOM", "DOM.Iterable"],
-		/* 指定模塊代碼生成的規範 */
-		"module": "ESNext",
-		/* 跳過對庫定義文件的檢查 */
-		"skipLibCheck": true,
-		/* Bundler 模式下的模塊解析 */
-		"moduleResolution": "bundler",
-		/* 允許在 import 語句中使用 .ts 擴展名 */
-		"allowImportingTsExtensions": true,
-		/* 啟用 JSON 模塊的解析 */
-		"resolveJsonModule": true,
-		/* 單獨的模塊文件，不生成 .js 文件 */
-		"isolatedModules": true,
-		/* 不生成任何輸出文件 */
-		"noEmit": true,
-		/* JSX 語法的類型定義 */
-		"jsx": "react-jsx",
-		/* 啟用嚴格模式 */
-		"strict": true,
-		/* 禁止未使用的局部變量檢查 */
-		"noUnusedLocals": true,
-		/* 禁止未使用的參數檢查 */
-		"noUnusedParameters": true,
-		/* 禁止在 switch 语句中的 fallthrough */
-		"noFallthroughCasesInSwitch": true,
-		/* 設置基本目錄，用於解析非相對模塊名稱 */
-		"baseUrl": ".",
-		/* 設定模塊名稱的路徑映射 */
-		"paths": {
-			"@/*": ["src/*"]
-		}
-		/* 額外的類型定義文件，以用於項目中的測試 */
-		// "types": ["@testing-library/jest-dom"]
-	},
-	/* 指定要包括在編譯中的目錄 */
-	"include": ["src", "test"]
-	/* TypeScript 3.0 的 Project References - 允許用戶為項目不同部分使用不同配置 */
-	// "references": [{ "path": "./tsconfig.node.json" }]
+  "compilerOptions": {
+    /* 將代碼編譯為最新版的JS */
+    "target": "ESNext",
+    /* 設置編譯時使用的庫定義 */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    /* 指定模塊代碼生成的規範 */
+    "module": "ESNext",
+    /* 跳過對庫定義文件的檢查 */
+    "skipLibCheck": true,
+    /* Bundler 模式下的模塊解析 */
+    "moduleResolution": "bundler",
+    /* 允許在 import 語句中使用 .ts 擴展名 */
+    "allowImportingTsExtensions": true,
+    /* 啟用 JSON 模塊的解析 */
+    "resolveJsonModule": true,
+    /* 單獨的模塊文件，不生成 .js 文件 */
+    "isolatedModules": true,
+    /* 不生成任何輸出文件 */
+    "noEmit": true,
+    /* JSX 語法的類型定義 */
+    "jsx": "react-jsx",
+    /* 啟用嚴格模式 */
+    "strict": true,
+    /* 禁止未使用的局部變量檢查 */
+    "noUnusedLocals": true,
+    /* 禁止未使用的參數檢查 */
+    "noUnusedParameters": true,
+    /* 禁止在 switch 语句中的 fallthrough */
+    "noFallthroughCasesInSwitch": true,
+    /* 設置基本目錄，用於解析非相對模塊名稱 */
+    "baseUrl": ".",
+    /* 設定模塊名稱的路徑映射 */
+    "paths": {
+      "@/*": ["src/*"]
+    }
+    /* 額外的類型定義文件，以用於項目中的測試 */
+    // "types": ["@testing-library/jest-dom"]
+  },
+  /* 指定要包括在編譯中的目錄 */
+  "include": ["src", "test"]
+  /* TypeScript 3.0 的 Project References - 允許用戶為項目不同部分使用不同配置 */
+  // "references": [{ "path": "./tsconfig.node.json" }]
 }
